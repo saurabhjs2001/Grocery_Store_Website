@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/external.css">
+</head>
+
+<body>
+    <!-- main div -->
+    <div class="container-fluid">
+        <!-- header div -->
+        <div class="row">
+            <nav class="navbar navbar-expand-lg nav">
+                <div class="container-fluid">
+                    <b><a class="navbar-brand hov" href="index.html">&nbsp;<i class="bi bi-house-door"></i> Grocery
+                            Store&nbsp;</a></b>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle hov" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <b>Login/Register</b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item lim" href="#">Help & Support</a></li>
+                                    <li><a class="dropdown-item lim" href="#">Login</a></li>
+                                    <li><a class="dropdown-item lim" href="./register.html">Register</a></li>
+                                </ul>
+                            </li> -->
+                            <li class="nav-item success">
+                                <b><a class="nav-link hov" href="./Contact Us.html">Contact Us</a></b>
+                            </li>
+                            <li class="nav-item ">
+                                <b><a class="nav-link hov" href="#"><i class="bi bi-bag-check"></i> My Orders</a></b>
+                            </li>
+                            <li class="nav-item ">
+                                <b><a class="nav-link hov" href="#"><i class="bi bi-bag-plus"></i> Cart</a></b>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- body div -->
+        <div class="row">
+            <video src="../images/groceryv1.mp4" class="back-video" autoplay muted loop></video>
+            <div class="llg1">
+                <form>
+                    <!-- Email input -->
+                    <h5 class="log">Login</h5>
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        <label class="form-label" for="Email">Email<span>&#42</span>:</label>
+                        <input type="email" id="email" class="form-control" placeholder="Enter Email ID" required>
+                    </div>
+
+                    <!-- Password input -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        <label class="form-label">Password<span>&#42</span>:</label>
+                        <input type="password" id="password" class="form-control" placeholder="Enter a Password"
+                            required>
+                    </div>
+                    <p><a href="" class="form-label"
+                            style="display: flex; justify-content: center; color: darkblue;"><strong>Forget
+                                Password</strong></a></p>
+
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-success btn-block mb-4">Login</button>
+
+                    <!-- Register buttons -->
+                    <div class="text">
+                        <p class="form-label"><b>Not a User?</b> <a href="./register.html"
+                                style="color: darkblue; font-weight: bold;">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- footer div -->
+        <div class="row">
+            <div class="col-md-3 back-color">
+                <h4 class="foot">Address :</h4>
+                <p style="padding: 10px;">Sadasundar, next to Mahavir Heights, Sector 5, Sector 7, Ghansoli, Navi
+                    Mumbai, Maharashtra 400701</p>
+            </div>
+            <div class="col-md-3 back-color">
+                <h4 class="foot">Quick Links</h4>
+                <a class="ftt" href="./index.html">Home</a><br>
+                <a class="ftt" href="">About Us</a><br>
+                <a class="ftt" href="">Orders</a>
+            </div>
+            <div class="col-md-3 back-color">
+                <h4 class="foot">Contact Us</h4>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" class="ftt" target="_blank"><i
+                        class="bi bi-envelope"></i> Thegrocery@gmail.in</a>
+                <p style="padding: 10px;"><i class="bi bi-telephone"></i> 7738866798</p>
+            </div>
+            <div class="col-md-3 back-color">
+                <h4 class="foot">Newsletter</h4>
+                <p class="">Enter your email for new offers</p>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit"><i class="bi bi-check-square-fill"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="row" style="background-color: rgb(171, 233, 176); padding-left: 10px;">
+            <h4 class="foot">Follow Us</h4>
+            <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+            <a href="https://in.linkedin.com" target="_blank"><i class="bi bi-linkedin"></i></a>
+        </div>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

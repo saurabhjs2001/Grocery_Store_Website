@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/external.css">
+</head>
+
+<body>
+    <!-- main div -->
+    <div class="container-fluid">
+        <!-- header div -->
+        <div class="row">
+            <nav class="navbar navbar-expand-lg nav">
+                <div class="container-fluid">
+                    <b><a class="navbar-brand hov" href="./index.html">&nbsp;<i class="bi bi-house-door"></i> Grocery
+                            Store&nbsp;</a></b>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle hov" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <b>Login/Register</b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item lim" href="#">Help & Support</a></li>
+                                    <li><a class="dropdown-item lim" href="login.html">Login</a></li>
+                                    <li><a class="dropdown-item lim" href="./register.html">Register</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item success">
+                                <b><a class="nav-link hov" href="./about us.html">About Us</a></b>
+                            </li>
+                            <li class="nav-item ">
+                                <b><a class="nav-link hov" href="./Contact Us.html"><i class="bi bi-telephone"></i> Contact Us</a></b>
+                            </li>
+                            <li class="nav-item ">
+                                <b><a class="nav-link hov" href="#"><i class="bi bi-bag-check"></i> My Orders</a></b>
+                            </li>
+                            <li class="nav-item ">
+                                <b><a class="nav-link hov" href="#"><i class="bi bi-bag-plus"></i> Cart</a></b>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- body div -->
+        <div class="row">
+            <div class="col-md-2 side-bar">
+                <h4>Categories</h4>
+                <hr>
+                <a href="" class="side-bar-categories">&nbsp; fruits &nbsp;</a><br>
+                <a href="" class="side-bar-categories">&nbsp; vegetable &nbsp;</a><br>
+                <a href="" class="side-bar-categories">&nbsp; Snaks &nbsp;</a><br>
+                <a href="" class="side-bar-categories">&nbsp; Drinks &nbsp;</a><br>
+                <a href="" class="side-bar-categories">&nbsp; Masalas &nbsp;</a><br>
+                <a href="" class="side-bar-categories">&nbsp; Frozen food &nbsp;</a><br>
+                <a href="" class="side-bar-categories">&nbsp; Foodgrains &nbsp;</a><br>
+                <a href="" class="side-bar-categories">&nbsp; personal Care &nbsp;</a><br>
+                <a href="" class="side-bar-categories">&nbsp; Cleanings &nbsp;</a>
+            </div>
+            <div class="col-md-10">
+                <div class="row card-gap">
+                    <div class="col-md3 card-area">
+                        <div class="card">
+                            <img class="card-img-top hov-img" src="../images/apple.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Apple</h5>
+                                <input type="number" min="1" max="5" value="1">Dozen
+                                <p class="card-text"></p>
+                                <strong>&#8377; 100</strong>
+                                <a href="#">Details</a><br>
+                                <a href="#" class="btn btn-success">Add to cart</a>
+                                <a href="#" class="btn btn-success">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md3 card-area">
+                        <div class="card">
+                            <img class="card-img-top hov-img" src="../images/orange.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">orange</h5>
+                                <input type="number" min="1" max="5" value="1">Dozen
+                                <p class="card-text"></p>
+                                <strong>&#8377; 150</strong>
+                                <a href="#">Details</a><br>
+                                <a href="#" class="btn btn-success">Add to cart</a>
+                                <a href="#" class="btn btn-success">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md3 card-area">
+                        <div class="card">
+                            <img class="card-img-top hov-img" src="../images/dragon furit.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Dragon fruits</h5>
+                                <input type="number" min="1" max="5" value="1">Dozen
+                                <p class="card-text"></p>
+                                <strong>&#8377; 250</strong>
+                                <a href="#">Details</a><br>
+                                <a href="#" class="btn btn-success">Add to cart</a>
+                                <a href="#" class="btn btn-success">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md3 card-area">
+                        <div class="card">
+                            <img class="card-img-top hov-img" src="../images/banana1.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Banana</h5>
+                                <input type="number" min="1" max="5" value="1">Dozen
+                                <p class="card-text"></p>
+                                <strong>&#8377; 40</strong>
+                                <a href="#">Details</a><br>
+                                <a href="#" class="btn btn-success">Add to cart</a>
+                                <a href="#" class="btn btn-success">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row card-gap">
+                    <div class="col-md-3 card-area">
+                        <div class="card">
+                            <img class="card-img-top hov-img" src="../images/carrot.avif" type="avif" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Carrot</h5>
+                                <input type="number" min="1" max="5" value="1">kg
+                                <p class="card-text"></p>
+                                <strong>&#8377; 90</strong>
+                                <a href="#">Details</a><br>
+                                <a href="#" class="btn btn-success">Add to cart</a>
+                                <a href="#" class="btn btn-success">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card-area">
+                        <div class="card">
+                            <img class="card-img-top hov-img" src="../images/bellpapper.avif" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Bell Papper</h5>
+                                <input type="number" min="1" max="5" value="1">kg
+                                <p class="card-text"></p>
+                                <strong>&#8377; 60</strong>
+                                <a href="#">Details</a><br>
+                                <a href="#" class="btn btn-success">Add to cart</a>
+                                <a href="#" class="btn btn-success">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card-area">
+                        <div class="card">
+                            <img class="card-img-top hov-img" src="../images/Broccoli.avif" type="avif" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Broccoli</h5>
+                                <input type="number" min="1" max="5" value="1">kg
+                                <p class="card-text"></p>
+                                <strong>&#8377; 80</strong>
+                                <a href="#">Details</a><br>
+                                <a href="#" class="btn btn-success">Add to cart</a>
+                                <a href="#" class="btn btn-success">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card-area">
+                        <div class="card">
+                            <img class="card-img-top hov-img" src="../images/brinjal.avif" type="avif" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Brinjal</h5>
+                                <input type="number" min="1" max="5" value="1">kg
+                                <p class="card-text"></p>
+                                <strong>&#8377; 50</strong>
+                                <a href="#">Details</a><br>
+                                <a href="#" class="btn btn-success">Add to cart</a>
+                                <a href="#" class="btn btn-success">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row card-gap">
+                    <div class="col-md-3 card-area">
+                        <div class="card">
+                            <img class="card-img-top hov-img" src="../images/tomato.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Tomato</h5>
+                                <input type="number" min="1" max="5" value="1">kg
+                                <p class="card-text"></p>
+                                <strong>&#8377; 50</strong>
+                                <a href="#">Details</a><br>
+                                <a href="#" class="btn btn-success">Add to cart</a>
+                                <a href="#" class="btn btn-success">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card-area">
+                        <div class="card">
+                            <img class="card-img-top hov-img" src="../images/Cabage 1.jpg" alt="Card image cap" style="margin-bottom: 13px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Cabage</h5>
+                                <input type="number" min="1" max="5" value="1">kg
+                                <p class="card-text"></p>
+                                <strong>&#8377; 40</strong>
+                                <a href="#">Details</a><br>
+                                <a href="#" class="btn btn-success">Add to cart</a>
+                                <a href="#" class="btn btn-success">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card-area">
+                        <div class="card">
+                            <img class="card-img-top hov-img" src="../images/cucumber 1.jpg" alt="Card image cap" style="margin-bottom: 15px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Cucumber</h5>
+                                <input type="number" min="1" max="5" value="1">kg
+                                <p class="card-text"></p>
+                                <strong>&#8377; 70</strong>
+                                <a href="#">Details</a><br>
+                                <a href="#" class="btn btn-success">Add to cart</a>
+                                <a href="#" class="btn btn-success">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card-area">
+                        <div class="card">
+                            <img class="card-img-top hov-img" src="../images/onions.jpg" alt="Card image cap" style="margin-bottom: 9px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Onion</h5>
+                                <input type="number" min="1" max="5" value="1">kg
+                                <p class="card-text"></p>
+                                <strong>&#8377; 30</strong>
+                                <a href="#">Details</a><br>
+                                <a href="#" class="btn btn-success">Add to cart</a>
+                                <a href="#" class="btn btn-success">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer div -->
+        <div class="row">
+            <div class="col-md-3 back-color">
+                <h4 class="foot">Address :</h4>
+                <p style="padding: 10px;">Sadasundar, next to Mahavir Heights, Sector 5, Sector 7, Ghansoli, Navi Mumbai,
+                    Maharashtra 400701</p>
+            </div>
+            <div class="col-md-3 back-color">
+                <h4 class="foot">Quick Links</h4>
+                <a class="ftt" href="./index.html">Home</a><br>
+                <a class="ftt" href="./Contact Us.html">Contact Us</a><br>
+                <a class="ftt" href="">Orders</a>
+            </div>
+            <div class="col-md-3 back-color">
+                <h4 class="foot">Contact Us</h4>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" class="ftt" target="_blank"><i class="bi bi-envelope"></i>
+                    Thegrocery@gmail.in</a>
+                <p style="padding: 10px;"><i class="bi bi-telephone"></i> 7738866798</p>
+            </div>
+            <div class="col-md-3 back-color">
+                <h4 class="foot">Newsletter</h4>
+                <p class="">Enter your email for new offers</p>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit"><i class="bi bi-check-square-fill"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="row" style="background-color: rgb(171, 233, 176); padding-left: 10px;">
+            <h4 class="foot">Follow Us</h4>
+            <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank" ><i class="bi bi-instagram"></i></a> 
+            <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter"></i></a> 
+            <a href="https://in.linkedin.com" target="_blank"><i class="bi bi-linkedin"></i></a>
+        </div>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
